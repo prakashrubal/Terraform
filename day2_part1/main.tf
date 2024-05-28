@@ -11,5 +11,5 @@ resource "aws_instance" "dev" {
 }
 
 resource "aws_s3_bucket" "dev_bucket" {
-    bucket = "github-webhook-mybucket12thmay"
+    bucket = "github-event-webhook-mybucket28thmay"
 }
