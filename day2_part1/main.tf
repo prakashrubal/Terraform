@@ -11,7 +11,7 @@ resource "aws_instance" "dev" {
 }
 
 resource "aws_s3_bucket" "dev_bucket" {
-    bucket = "github-event-webhook-mybucket-28thmay24"
+    bucket = "github-event-webhook-mybucket-28thmay2024"
 }
 # adding comment to test if github webhook trigger for SCM Polling (event based trigger) works for comment or not
 # Yes even adding a comment here trigger the pipeline in jenkins
