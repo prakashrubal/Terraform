@@ -15,3 +15,4 @@ resource "aws_s3_bucket" "dev_bucket" {
 }
 # adding comment to test if github webhook trigger for SCM Polling (event based trigger) works for comment or not
 # Yes even adding a comment here trigger the pipeline in jenkins
+#You also need to add the git clone url in pipeline syntax format in any of the steps of the pipeline
