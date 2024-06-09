@@ -12,5 +12,5 @@ resource "aws_instance" "ec2-instance" {
 }
 
 resource "aws_s3_bucket" "name" {
-  bucket = "htghgdfhtrhytjytdhsgdfgaegstrhgf"
+  bucket = "htghgdfhtrhytjugiugyhsgdfga-bucket"
 }
