@@ -2,8 +2,8 @@ resource "aws_instance" "example_server" {
 
   ami                         = "ami-00fa32593b478ad6e"
   instance_type               = "t2.micro"
-  key_name                    = "custom-key"
-  subnet_id                   = "subnet-077e0fe4707902519"
+  key_name                    = "key-profile2"
+  # subnet_id                   = "subnet-077e0fe4707902519"
   associate_public_ip_address = "true"
 
   tags = {
